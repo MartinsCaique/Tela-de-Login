@@ -1,20 +1,62 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <!-- <ion-toolbar>
     <ion-title>
       Blank
     </ion-title>
-  </ion-toolbar>
+  </ion-toolbar> -->
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
-    <ion-toolbar>
+    <!-- <ion-toolbar>
       <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
+    </ion-toolbar> -->
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-row>
+    <ion-col size="6">
+      <ion-img src="https://images.pexels.com/photos/2670898/pexels-photo-2670898.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        alt="The Wisconsin State Capitol building in Madison, WI at night" style="width: 100%;">
+      </ion-img>
+    </ion-col>
+
+    <ion-col size="6" class="form-col ion-text-center ion-align-self-center">
+
+      <h2 color="dark">Criar Conta</h2><br>
+
+      <ion-input class="custom-input text-center" label="Nome" label-placement="floating" fill="outline" placeholder="Nome" size="small"></ion-input>
+
+      <br>
+
+      <ion-input class="custom-input text-center" label="Email" label-placement="floating" fill="outline" placeholder="Email" size="small"></ion-input>
+      <br>
+      <ion-input class="custom-input text-center" label="Senha" labelPlacement="floating" fill="outline" type="password" placeholder="Senha" size="small"></ion-input>
+      <br>
+      <ion-input class="custom-input text-center" label="Confirmar Senha" labelPlacement="floating" fill="outline" type="password" placeholder="Confirmar Senha"></ion-input>
+      <br>
+      <ion-button color="success">
+        Criar conta
+      </ion-button>
+      <br><br>
+      <p>Login com</p><br>  
+      <ion-button>
+        <ion-icon name="logo-facebook"></ion-icon>
+        Facebook
+      </ion-button>
+      <br>
+
+      <ion-button color="secondary">
+        <ion-icon name="logo-twitter"></ion-icon>
+        Twitter
+      </ion-button>
+      <br>
+
+      <ion-button color="danger">
+        <ion-icon name="logo-google"></ion-icon>
+        Google
+      </ion-button>
+
+    </ion-col>
+  </ion-row>
+
 </ion-content>

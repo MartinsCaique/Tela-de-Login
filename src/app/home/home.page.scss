@@ -25,3 +25,17 @@
 #container a {
   text-decoration: none;
 }
+
+.custom-input {
+  max-width: 14.5rem;
+  // margin-bottom: 0.1rem;
+}
+ion-input.custom-input {
+  --min-width: 9.375rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .custom-input {
+    width: 80%;
+  }
+}
